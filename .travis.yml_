@@ -1,0 +1,30 @@
+language:
+    - julia
+    - ruby
+julia:
+    - 1.1
+
+cache: bundler
+
+git:
+  submodules: false
+
+before_install:
+    - julia -e 'import Pkg; Pkg.add("JSON"); Pkg.add("Unitful"); Pkg.add("ProgressMeter")'
+    - git clone 'git@github.com:mppmu/gems-sw.git' ./src
+
+install: true
+
+script:
+    - src/.github/run-tests.sh
+
+deploy:
+    provider: pages
+    local_dir: src/website/_site
+    email: deploy@travis-ci.org
+    name: Deployment Bot
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    on:
+        branch: master

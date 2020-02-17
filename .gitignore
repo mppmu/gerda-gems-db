@@ -1,0 +1,18 @@
+# (possibly big) data files
+*.root
+*.mac
+*.out
+*.dk0
+
+# junk
+*.swp
+*.DS_Store
+*.o*
+*.nfs*
+
+# singularity containers
+*.sqsh
+*.img
+*.simg
+
+gerda-mage-sim.json

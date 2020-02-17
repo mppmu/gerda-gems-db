@@ -1,0 +1,24 @@
+{
+    "gedet": {
+        "intrinsic_bege": {
+            "0nbb": {
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0",
+                        "gerda-sw-all": "v6.1.1"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 10,
+                    "additional-commands" : {
+                        "generator": [
+                            "/MG/generator/select decay0",
+                            "/MG/generator/decay0/filename ./decay0files/0nbb_1e8.dk0"
+                        ]
+                    },
+                    "notes": "All the BEGe detectors (active and dead volume) are simulated together",
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}

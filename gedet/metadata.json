@@ -1,0 +1,21 @@
+{
+    "gedet": {
+        "description": "Simulations in the germanium detectors",
+        "template": "gerda-ph2plus",
+        "intrinsic_bege": {
+            "description": [
+                "Volume of detectors deployed in GERDA PhaseII+, split in dead and active parts.",
+                "**BEGe** detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 5.54
+            },
+            "mage-volumes": [
+                "Crystal_geometry5_[1-30]",
+                "CristalDeadLayer_geometry5_[1-30]"
+            ]
+        }
+    }
+}
