@@ -16,6 +16,36 @@
                 "Crystal_geometry5_[1-30]",
                 "CristalDeadLayer_geometry5_[1-30]"
             ]
+        },
+        "intrinsic_semicoax": {
+            "description": [
+                "Volume of detectors deployed in GERDA PhaseII+, split in dead and active parts.",
+                "**semi-coaxial** detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 5.54
+            },
+            "mage-volumes": [
+                "Crystal_geometry11_[1-6]",
+                "CristalDeadLayer_geometry11_[1-6]"
+            ]
+        },
+        "intrinsic_invcoax": {
+            "description": [
+                "Volume of detectors deployed in GERDA PhaseII+, split in dead and active parts.",
+                "**inverted-coaxial** detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 5.54
+            },
+            "mage-volumes": [
+                "Crystal_geometry6_[1-5]",
+                "CristalDeadLayer_geometry6_[1-5]"
+            ]
         }
     }
 }
