@@ -1,0 +1,293 @@
+
+{
+    "cables": {
+        "cables_all": {
+            "Ac228": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 89 228",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 89 228",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Co60": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 27 60",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 27 60",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi214": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 83 214",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 83 214",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Tl208": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 81 208",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 81 208",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Pb214": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 82 214",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 82 214",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi212": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 83 212",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 83 212",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Pb212": {
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 82 212",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "K40": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 19 40",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "generator": [
+                            "/MG/generator/select G4gun",
+                            "/MG/generator/g4gun/cone_on true",
+                            "/gun/particle ion",
+                            "/gun/ion 19 40",
+                            "/gun/energy 0 eV"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}
