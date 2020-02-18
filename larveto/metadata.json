@@ -1,0 +1,31 @@
+{
+    "larveto": {
+        "template": "gerda-ph2plus",
+        "description": "Simulations in the LAr hybrid veto system",
+        "outer_fibers": {
+            "description": "Segmented outer fiber shroud",
+            "simulated-properties": {
+                "density-gcm3": 1.05,
+                "mass-g": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": [
+                "LArInstr_FiberSegment_Physical_[0-134]"
+            ]
+        },
+        "inner_fibers": {
+            "description": "Central fiber shroud installed for GERDA PhaseII+",
+            "simulated-properties": {
+                "density-gcm3": 1.05,
+                "mass-g": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": [
+                "LArInstr_InnerShroud_FiberSegment_Physical_[0-17]",
+                "LArInstr_InnerShroud_FiberSegmentEndJunction_Physical_[0-8]",
+                "LArInstr_InnerShroud_FiberSegmentToSiPMs_Physical_[0-17]",
+                "LArInstr_InnerShroud_FiberSegmentBentPart_Physical_[0-17]"
+            ]
+        }
+    }
+}
