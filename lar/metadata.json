@@ -1,0 +1,24 @@
+{
+    "lar": {
+        "template": "gerda-ph2plus",
+        "description": "Simulations in the LAr surrounding the detector array",
+        "above_array": {
+            "description": "Cylinder (radius = 25cm, height = 100cm) positioned over the germanium array (z = 65cm)",
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": ["CryoLiquidPhysical"]
+        },
+        "sur_array": {
+            "description": "Cylinder (radius = 100cm, height = 220cm) positioned over the germanium array (z = -11.5cm)",
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": ["CryoLiquidPhysical"]
+        }
+    }
+}

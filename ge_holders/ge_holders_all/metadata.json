@@ -1,7 +1,7 @@
 
 {
-    "cables": {
-        "cables_all": {
+    "ge_holders": {
+        "ge_holders_all": {
             "Ac228": {
                 "coin": {
                     "mage-version": {
@@ -22,6 +22,7 @@
                             "/gun/energy 0 eV"
                         ]
                     },
+                    "notes": "",
                     "contact": "L.Pertoldi"
                 },
                 "edep": {
@@ -29,8 +30,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
+                    "total-events": 5.0e8,
+                    "number-of-files": 50,
                     "additional-commands": {
                         "generator": [
                             "/MG/generator/select G4gun",
@@ -131,8 +132,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e8,
-                    "number-of-files": 100,
+                    "total-events": 1.0e7,
+                    "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
@@ -153,7 +154,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0e8,
-                    "number-of-files": 100,
+                    "number-of-files": 10,
                     "additional-commands": {
                         "generator": [
                             "/MG/generator/select G4gun",
@@ -172,8 +173,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
@@ -213,8 +214,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
@@ -234,8 +235,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
                     "additional-commands": {
                         "generator": [
                             "/MG/generator/select G4gun",
@@ -254,8 +255,8 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
                     "additional-commands": {
                         "generator": [
                             "/MG/generator/select G4gun",
