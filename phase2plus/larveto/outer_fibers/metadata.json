@@ -3,6 +3,15 @@
     "larveto": {
         "outer_fibers": {
             "K40": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 19 40",
+                        "/gun/energy 0 eV"
+                    ]
+                },
                 "coin": {
                     "mage-version": {
                         "revision": "",
@@ -13,13 +22,6 @@
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ],
-                        "generator": [
-                            "/MG/generator/select G4gun",
-                            "/MG/generator/g4gun/cone_on true",
-                            "/gun/particle ion",
-                            "/gun/ion 19 40",
-                            "/gun/energy 0 eV"
                         ]
                     },
                     "contact": "L.Pertoldi"
@@ -31,15 +33,6 @@
                     },
                     "total-events": 9.0e10,
                     "number-of-files": 200,
-                    "additional-commands": {
-                        "generator": [
-                            "/MG/generator/select G4gun",
-                            "/MG/generator/g4gun/cone_on true",
-                            "/gun/particle ion",
-                            "/gun/ion 19 40",
-                            "/gun/energy 0 eV"
-                        ]
-                    },
                     "contact": "L.Pertoldi"
                 }
             }
