@@ -1,0 +1,26 @@
+/MG/manager/mglog                        trace
+/MG/manager/seedWithDevRandom
+/MG/processes/useNoHadPhysics            true
+/MG/geometry/detector                    GerdaArrayPhaseIIPlus
+/MG/geometry/cherenkov                   -1
+
+/MG/eventaction/reportingfrequency       10000
+/MG/eventaction/rootschema               GSS
+/MG/eventaction/rootfilename             ./gedet/surf_chanwise/ver/ver-gedet-surf_chanwise-$DETNAME.root
+
+/run/initialize
+
+/MG/generator/select                     GSS
+
+/MG/io/gss/addVolume                     CrystalDeadLayer_geometry$DETVOL
+/MG/io/gss/addVolume                     CryoLiquidPhysical
+/MG/io/gss/SetOnlyBetweenSelectedVolumes true
+
+/MG/generator/gss/origin                 $ORIGIN
+/MG/generator/gss/boundingR              $RADIUS
+
+/MG/io/gss/setMaxIntersections           8
+
+## Define run
+/tracking/verbose                        0
+/run/beamOn                              30000000
