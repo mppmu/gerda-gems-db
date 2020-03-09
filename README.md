@@ -1,6 +1,6 @@
 <img src=".github/gerda-logo.png" align="left" height="80"/>
 
-# gerda-gems-db
+# gerda-gems-db [![Build Status](https://travis-ci.com/mppmu/gerda-gems-db.svg?token=wsiyLpecsT4BYkevdkq1&branch=master)](https://travis-ci.com/mppmu/gerda-gems-db)
 
 GeMS database for GERDA MaGe simulations.
 
