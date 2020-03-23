@@ -1,0 +1,18 @@
+{
+    "ge_holders": {
+        "description": "Simulations in the detector's holder mounting",
+        "template": "gerda-ph2",
+        "ge_holders_all": {
+            "description": "Silicon plates + vertical copper bars that hold the detectors",
+            "simulated-properties": {
+                "mass-g": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 2.33
+            },
+            "mage-volumes": [
+                "Holder_Plate_[0-39]",
+                "Holder_VerticalBar_[0-101]"
+            ]
+        }
+    }
+}

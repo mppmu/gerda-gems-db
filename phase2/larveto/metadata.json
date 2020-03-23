@@ -1,0 +1,17 @@
+{
+    "larveto": {
+        "template": "gerda-ph2",
+        "description": "Simulations in the LAr hybrid veto system",
+        "outer_fibers": {
+            "description": "Segmented outer fiber shroud",
+            "simulated-properties": {
+                "density-gcm3": 1.05,
+                "mass-g": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": [
+                "LArInstr_FiberSegment_Physical_[0-89]"
+            ]
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "calib": {
+        "template": "gerda-ph2",
+        "description": [
+            "Simulations of the standard GERDA calibration sources.  The naming",
+            "format is `type_active-source_depth-mm`. If `type` is `multi` All",
+            "sources s1, s2 and s3 are placed at the same position (calibration",
+            "depth), indicated (in mm) in the folder name, but only",
+            "`active-source` is active. If `type` is `single` then only the",
+            "active source is lowered, the others stay in their rest positions."
+        ],
+        "multi_s1_8220": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_0"
+            ]
+        },
+        "multi_s1_8405": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_0"
+            ]
+        },
+        "multi_s1_8570": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_0"
+            ]
+        },
+        "multi_s2_8220": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "multi_s2_8405": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "multi_s2_8570": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "multi_s3_8220": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        },
+        "multi_s3_8405": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        },
+        "multi_s3_8570": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        }
+    }
+}
