@@ -18,7 +18,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0e10,
-                    "number-of-files": 200,
+                    "number-of-files": 800,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
@@ -32,7 +32,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0e10,
-                    "number-of-files": 200,
+                    "number-of-files": 800,
                     "contact": "L.Pertoldi"
                 }
             }
