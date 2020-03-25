@@ -17,4 +17,5 @@ for> root $f << EOF
 for heredoc> auto GSSTree = dynamic_cast<TTree*>(_file0->Get("GSSTree"));
 for heredoc> cout << "$f" << '\t' << GSSTree->GetEntries() << '\n';
 for heredoc> EOF
+for> done
 ```
