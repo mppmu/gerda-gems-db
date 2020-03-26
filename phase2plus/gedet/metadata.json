@@ -83,7 +83,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/nplus_bege/ver/ver-gedet-nplus_bege.root"
+                "./gedet/nplus_bege/ver/ver-gedet-nplus_bege.root"
             ]
         },
         "nplus_semicoax": {
@@ -95,7 +95,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/nplus_semicoax/ver/ver-gedet-nplus_semicoax.root"
+                "./gedet/nplus_semicoax/ver/ver-gedet-nplus_semicoax.root"
             ]
         },
         "nplus_invcoax": {
@@ -107,7 +107,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/nplus_invcoax/ver/ver-gedet-nplus_invcoax.root"
+                "./gedet/nplus_invcoax/ver/ver-gedet-nplus_invcoax.root"
             ]
         },
         "pplus_bege": {
@@ -119,7 +119,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/pplus_bege/ver/ver-gedet-pplus_bege.root"
+                "./gedet/pplus_bege/ver/ver-gedet-pplus_bege.root"
             ]
         },
         "pplus_semicoax": {
@@ -131,7 +131,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/pplus_semicoax/ver/ver-gedet-pplus_semicoax.root"
+                "./gedet/pplus_semicoax/ver/ver-gedet-pplus_semicoax.root"
             ]
         },
         "pplus_invcoax": {
@@ -143,7 +143,7 @@
                 "surface-cm2": 0
             },
             "mage-volumes": [
-                "gedet/pplus_invcoax/ver/ver-gedet-pplus_invcoax.root"
+                "./gedet/pplus_invcoax/ver/ver-gedet-pplus_invcoax.root"
             ]
         }
     }

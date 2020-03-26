@@ -1,0 +1,51 @@
+{
+    "gedet": {
+        "nplus_bege": {
+            "K42": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 19 42",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 8337044,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "notes": "1/10 events from the vertex file",
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 8337044,
+                    "number-of-files": 1,
+                    "notes": "1/10 events from the vertex file",
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "ver": {
+                "manual-management": true,
+                "mage-version": {
+                    "revision": "",
+                    "gerda-sw-all": ""
+                },
+                "total-events": 83370439,
+                "number-of-files": 1
+            }
+        }
+    }
+}
