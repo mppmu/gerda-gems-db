@@ -46,6 +46,105 @@
                 "Crystal_geometry6_[1-5]",
                 "CrystalDeadLayer_geometry6_[1-5]"
             ]
+        },
+        "surf_chanwise": {
+            "description": [
+                "Complete detector surface in contact with LAr. Detectors are",
+                "simulated separately, further info in",
+                "`surf_chanwise/ver/README.md`"
+            ],
+            "simulated-properties": "see `gedet/gedet-mc-info.json`",
+            "mage-volumes": "see description"
+        },
+        "nplus_chanwise": {
+            "description": [
+                "n+ contact surface in contact with LAr. Detectors are",
+                "simulated separately, further info in",
+                "`nplus_chanwise/ver/README.md`"
+            ],
+            "simulated-properties": "see `gedet/gedet-mc-info.json`",
+            "mage-volumes": "see description"
+        },
+        "pplus_chanwise": {
+            "description": [
+                "p+ contact surface in contact with LAr. Detectors are",
+                "simulated separately, further info in",
+                "`pplus_chanwise/ver/README.md`"
+            ],
+            "simulated-properties": "see `gedet/gedet-mc-info.json`",
+            "mage-volumes": "see description"
+        },
+        "nplus_bege": {
+            "description": [
+                "BEGe n+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/nplus_bege/ver/ver-gedet-nplus_bege.root"
+            ]
+        },
+        "nplus_semicoax": {
+            "description": [
+                "SemiCoax n+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/nplus_semicoax/ver/ver-gedet-nplus_semicoax.root"
+            ]
+        },
+        "nplus_invcoax": {
+            "description": [
+                "InvCoax n+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/nplus_invcoax/ver/ver-gedet-nplus_invcoax.root"
+            ]
+        },
+        "pplus_bege": {
+            "description": [
+                "BEGe p+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/pplus_bege/ver/ver-gedet-pplus_bege.root"
+            ]
+        },
+        "pplus_semicoax": {
+            "description": [
+                "SemiCoax p+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/pplus_semicoax/ver/ver-gedet-pplus_semicoax.root"
+            ]
+        },
+        "pplus_invcoax": {
+            "description": [
+                "InvCoax p+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "gedet/pplus_invcoax/ver/ver-gedet-pplus_invcoax.root"
+            ]
         }
     }
 }
