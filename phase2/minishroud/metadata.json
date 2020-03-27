@@ -1,0 +1,21 @@
+{
+    "minishroud": {
+        "template": "gerda-ph2",
+        "description": "Simulations in the nylon mini-shrouds sorrounding each string",
+        "ms_all": {
+            "description": "All minishrouds, all five components: top, bottom, tub, glue_ring_bottom, glue_ring_top (7)",
+            "simulated-properties": {
+                "mass-g": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 1.15
+            },
+            "mage-volumes": [
+                "MiniShroudPhase2Top_[0-6]",
+                "MiniShroudPhase2Bottom_[0-6]",
+                "MiniShroudPhase2Tub_[0-6]",
+                "MiniShroudPhase2BottomGluedRing_[0-6]",
+                "MiniShroudPhase2TopGluedRing_[0-6]"
+            ]
+        }
+    }
+}
