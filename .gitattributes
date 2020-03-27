@@ -1,0 +1,3 @@
+*.tmac linguist-detectable=false
+*.mac linguist-detectable=false
+*.json linguist-detectable=true
