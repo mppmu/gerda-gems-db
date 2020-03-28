@@ -26,9 +26,105 @@
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true",
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
-                            "/MG/output/saveOnlyEventsWithEnergyDeposit false"
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "0nbb_0p1": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_0p1_1e8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "0nbb_2p1": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p1_1e8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "0nbb_2p2": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p2_1e8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
                         ]
                     }
                 }
@@ -58,9 +154,78 @@
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true",
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
-                            "/MG/output/saveOnlyEventsWithEnergyDeposit false"
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "2nbb_0p1": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_0p1_1E8.dk0"
+                    ]
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "2nbb_2p1": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2p1_1E8.dk0"
+                    ]
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    }
+                }
+            },
+            "2nbb_2p2": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2p2_1E8.dk0"
+                    ]
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false",
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
                         ]
                     }
                 }
