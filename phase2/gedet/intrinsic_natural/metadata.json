@@ -16,6 +16,21 @@
                     "total-events": 1.0E8,
                     "number-of-files" : 5,
                     "contact": "L.Pertoldi"
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithCoincidence true",
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false"
+                        ]
+                    }
                 }
             },
             "2nbb": {
@@ -33,6 +48,21 @@
                     "total-events": 1.0E8,
                     "number-of-files" : 5,
                     "contact": "L.Pertoldi"
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithCoincidence true",
+                            "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
+                            "/MG/output/saveOnlyEventsWithEnergyDeposit false"
+                        ]
+                    }
                 }
             },
             "2nbbLV": {
