@@ -23,7 +23,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -55,7 +55,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -87,7 +87,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -119,7 +119,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -151,7 +151,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -174,7 +174,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -197,7 +197,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
@@ -220,7 +220,7 @@
                         "gerda-sw-all": ""
                     },
                     "total-events": 1.0E8,
-                    "number-of-files": 1,
+                    "number-of-files": 5,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithEnergyDepositInGermanium false",
