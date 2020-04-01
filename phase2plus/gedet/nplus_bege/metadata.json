@@ -16,14 +16,14 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 8337044,
+                    "total-events": 3.3E7,
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
                             "/MG/output/saveOnlyEventsWithCoincidence true"
                         ]
                     },
-                    "notes": "1/10 events from the vertex file",
+                    "notes": "~4/100 events from the vertex file",
                     "contact": "L.Pertoldi"
                 },
                 "edep": {
@@ -31,9 +31,9 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 8337044,
+                    "total-events": 3.3E7,
                     "number-of-files": 1,
-                    "notes": "1/10 events from the vertex file",
+                    "notes": "~4/100 events from the vertex file",
                     "contact": "L.Pertoldi"
                 }
             },
@@ -43,7 +43,7 @@
                     "revision": "",
                     "gerda-sw-all": ""
                 },
-                "total-events": 83370439,
+                "total-events": 833808346,
                 "number-of-files": 1
             }
         }

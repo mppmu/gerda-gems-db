@@ -16,7 +16,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 131019,
+                    "total-events": 1308137,
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
@@ -31,7 +31,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 131019,
+                    "total-events": 1308137,
                     "number-of-files": 1,
                     "notes": "all events from the vertex file",
                     "contact": "L.Pertoldi"
@@ -52,7 +52,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 131019,
+                    "total-events": 1308137,
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
@@ -67,7 +67,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 131019,
+                    "total-events": 1308137,
                     "number-of-files": 1,
                     "notes": "all events from the vertex file",
                     "contact": "L.Pertoldi"
@@ -79,7 +79,7 @@
                     "revision": "",
                     "gerda-sw-all": ""
                 },
-                "total-events": 131019,
+                "total-events": 1308137,
                 "number-of-files": 1
             }
         }

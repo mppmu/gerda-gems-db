@@ -16,7 +16,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1497853,
+                    "total-events": 14977048,
                     "number-of-files": 1,
                     "additional-commands": {
                         "pre-run-initialize" : [
@@ -31,7 +31,7 @@
                         "revision": "",
                         "gerda-sw-all": ""
                     },
-                    "total-events": 1497853,
+                    "total-events": 14977048,
                     "number-of-files": 1,
                     "notes": "1/10 events from the vertex file",
                     "contact": "L.Pertoldi"
@@ -43,7 +43,7 @@
                     "revision": "",
                     "gerda-sw-all": ""
                 },
-                "total-events": 14978531,
+                "total-events": 149770483,
                 "number-of-files": 1
             }
         }
