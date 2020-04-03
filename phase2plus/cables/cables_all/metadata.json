@@ -1,8 +1,21 @@
-
 {
     "cables": {
         "cables_all": {
             "Ac228": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/select G4gun",
@@ -12,24 +25,10 @@
                         "/gun/energy 0 eV"
                     ]
                 },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
                     "total-events": 1.0e9,
                     "number-of-files": 100,
@@ -37,6 +36,20 @@
                 }
             },
             "Co60": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/select G4gun",
@@ -46,163 +59,13 @@
                         "/gun/energy 0 eV"
                     ]
                 },
-                "coin": {
+                "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 10,
-                    "contact": "L.Pertoldi"
-                }
-            },
-            "Bi214": {
-                "additional-commands": {
-                    "generator": [
-                        "/MG/generator/select G4gun",
-                        "/MG/generator/g4gun/cone_on true",
-                        "/gun/particle ion",
-                        "/gun/ion 83 214",
-                        "/gun/energy 0 eV"
-                    ]
-                },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 10,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 10,
-                    "contact": "L.Pertoldi"
-                }
-            },
-            "Tl208": {
-                "additional-commands": {
-                    "generator": [
-                        "/MG/generator/select G4gun",
-                        "/MG/generator/g4gun/cone_on true",
-                        "/gun/particle ion",
-                        "/gun/ion 81 208",
-                        "/gun/energy 0 eV"
-                    ]
-                },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 100,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 100,
-                    "contact": "L.Pertoldi"
-                }
-            },
-            "Pb214": {
-                "additional-commands": {
-                    "generator": [
-                        "/MG/generator/select G4gun",
-                        "/MG/generator/g4gun/cone_on true",
-                        "/gun/particle ion",
-                        "/gun/ion 82 214",
-                        "/gun/energy 0 eV"
-                    ]
-                },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 10,
-                    "contact": "L.Pertoldi"
-                }
-            },
-            "Bi212": {
-                "additional-commands": {
-                    "generator": [
-                        "/MG/generator/select G4gun",
-                        "/MG/generator/g4gun/cone_on true",
-                        "/gun/particle ion",
-                        "/gun/ion 83 212",
-                        "/gun/energy 0 eV"
-                    ]
-                },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e9,
-                    "number-of-files": 100,
                     "contact": "L.Pertoldi"
                 }
             },
@@ -218,8 +81,144 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi214": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 83 214",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Tl208": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 81 208",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 100,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Pb214": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 82 214",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi212": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e9,
+                    "number-of-files": 100,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 83 212",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
                     "total-events": 1.0e9,
                     "number-of-files": 100,
@@ -227,6 +226,20 @@
                 }
             },
             "K40": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e8,
+                    "number-of-files": 10,
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/select G4gun",
@@ -236,24 +249,10 @@
                         "/gun/energy 0 eV"
                     ]
                 },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1.0e8,
-                    "number-of-files": 10,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "contact": "L.Pertoldi"
-                },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,

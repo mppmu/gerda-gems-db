@@ -1,14 +1,6 @@
 {
     "calib": {
         "multi_s3_8405": {
-            "additional-commands": {
-                "pre-run-initialize": [
-                    "/MG/geometry/general/constructcalibration true",
-                    "/MG/geometry/detector/calibration/sourcez_S1 8405 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S3 8405 mm"
-                ]
-            },
             "Tl208": {
                 "additional-commands": {
                     "generator": [
@@ -21,10 +13,10 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
-                    "total-events": 3.69E7,
+                    "total-events": 3.69e7,
                     "number-of-files": 3,
                     "notes": "Corresponds to 30min exposure at mid Feb 2019 (run104)",
                     "contact": "L.Pertoldi"
@@ -42,14 +34,22 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
-                    "total-events": 3.69E7,
+                    "total-events": 3.69e7,
                     "number-of-files": 1,
                     "notes": "Corresponds to 30min exposure at mid Feb 2019 (run104)",
                     "contact": "L.Pertoldi"
                 }
+            },
+            "additional-commands": {
+                "pre-run-initialize": [
+                    "/MG/geometry/general/constructcalibration true",
+                    "/MG/geometry/detector/calibration/sourcez_S1 8405 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S3 8405 mm"
+                ]
             }
         }
     }

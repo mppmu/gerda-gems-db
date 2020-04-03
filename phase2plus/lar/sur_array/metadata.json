@@ -2,6 +2,21 @@
     "lar": {
         "sur_array": {
             "K42": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 1.0e11,
+                    "number-of-files": 2000,
+                    "notes": "1E4 events in ~5 sec",
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/Sampling/volume/name Cylinder",
@@ -16,27 +31,12 @@
                         "/gun/energy 0 eV"
                     ]
                 },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 1e11,
-                    "number-of-files": 2000,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "notes": "1E4 events in ~5 sec",
-                    "contact": "L.Pertoldi"
-                },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
-                    "total-events": 1e11,
+                    "total-events": 1.0e11,
                     "number-of-files": 2000,
                     "notes": "1E4 events in ~5 sec",
                     "contact": "L.Pertoldi"

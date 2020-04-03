@@ -1,19 +1,19 @@
 {
     "cables": {
-        "template": "gerda-ph2plus",
         "cables_all": {
-            "description": "All the cables parts together, HV, signal and the cable patches",
-            "simulated-properties": {
-                "mass-g": 0,
-                "volume-cm3": 0,
-                "density-gcm3": 1.53
-            },
             "mage-volumes": [
                 "HVCableAtHolder_Phase2_[0-40]",
                 "SignalCableAtHolder_Phase2_[0-40]",
                 "HVCableFromHolderToElectronicsPlate_Phase2_[0-40]",
                 "SignalCableFromHolderToElectronicsPlate_Phase2_[0-40]"
-            ]
-        }
+            ],
+            "simulated-properties": {
+                "mass-g": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 1.53
+            },
+            "description": "All the cables parts together, HV, signal and the cable patches"
+        },
+        "template": "gerda-ph2plus"
     }
 }

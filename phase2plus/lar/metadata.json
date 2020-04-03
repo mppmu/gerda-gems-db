@@ -1,43 +1,49 @@
 {
     "lar": {
         "template": "gerda-ph2plus",
-        "description": "Simulations in the LAr surrounding the detector array",
         "above_array": {
+            "mage-volumes": [
+                "CryoLiquidPhysical"
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 1.39
+            },
             "description": [
                 "Cylinder (radius = 25cm, height = 100cm) positioned",
                 "over the germanium array (z = 65cm)"
-            ],
-            "simulated-properties": {
-                "density-gcm3": 1.39,
-                "mass-kg": 0,
-                "volume-cm3": 0
-            },
-            "mage-volumes": ["CryoLiquidPhysical"]
+            ]
         },
         "sur_array": {
+            "mage-volumes": [
+                "CryoLiquidPhysical"
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 1.39
+            },
             "description": [
                 "Cylinder (radius = 100cm, height = 220cm) positioned",
                 "over the germanium array (z = -11.5cm)"
+            ]
+        },
+        "description": "Simulations in the LAr surrounding the detector array",
+        "sur_array_1": {
+            "mage-volumes": [
+                "CryoLiquidPhysical"
             ],
             "simulated-properties": {
-                "density-gcm3": 1.39,
                 "mass-kg": 0,
-                "volume-cm3": 0
+                "volume-cm3": 0,
+                "density-gcm3": 1.39
             },
-            "mage-volumes": ["CryoLiquidPhysical"]
-        },
-        "sur_array_1": {
             "description": [
                 "Cylinder (radius = 50cm, height = 100cm) surrounding the Ge",
                 "array (z = -11.5cm for better centering). Volume to sample energy",
                 "in Ge of ~600 keV beta with 10^10 sim events"
-            ],
-            "simulated-properties": {
-                "density-gcm3": 1.39,
-                "mass-kg": 0,
-                "volume-cm3": 0
-            },
-            "mage-volumes": ["CryoLiquidPhysical"]
+            ]
         }
     }
 }

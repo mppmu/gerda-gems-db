@@ -2,6 +2,21 @@
     "gedet": {
         "nplus_bege": {
             "K42": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
+                    },
+                    "total-events": 3.3e7,
+                    "number-of-files": 1,
+                    "notes": "~4/100 events from the vertex file",
+                    "additional-commands": {
+                        "pre-run-initialize": [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "contact": "L.Pertoldi"
+                },
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/select G4gun",
@@ -11,27 +26,12 @@
                         "/gun/energy 0 eV"
                     ]
                 },
-                "coin": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 3.3E7,
-                    "number-of-files": 1,
-                    "additional-commands": {
-                        "pre-run-initialize" : [
-                            "/MG/output/saveOnlyEventsWithCoincidence true"
-                        ]
-                    },
-                    "notes": "~4/100 events from the vertex file",
-                    "contact": "L.Pertoldi"
-                },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                     },
-                    "total-events": 3.3E7,
+                    "total-events": 3.3e7,
                     "number-of-files": 1,
                     "notes": "~4/100 events from the vertex file",
                     "contact": "L.Pertoldi"
@@ -40,8 +40,8 @@
             "ver": {
                 "manual-management": true,
                 "mage-version": {
-                    "revision": "",
-                    "gerda-sw-all": ""
+                    "revision": "gerda-v2.0.0-rc3",
+                    "gerda-sw-all": "gerda-sw-all_v6.1.1-mage@gerda-v2.0.0-rc3"
                 },
                 "total-events": 833808346,
                 "number-of-files": 1
