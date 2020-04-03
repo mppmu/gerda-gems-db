@@ -5,7 +5,7 @@
                 "additional-commands" : {
                     "generator": [
                         "/MG/generator/select decay0",
-                        "/MG/generator/decay0/filename ./decay0files/0nbb_1e8.dk0"
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_1E8.dk0"
                     ]
                 },
                 "edep": {
@@ -37,7 +37,7 @@
                 "additional-commands" : {
                     "generator": [
                         "/MG/generator/select decay0",
-                        "/MG/generator/decay0/filename ./decay0files/0nbb_0p1_1e8.dk0"
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_0p1_1E8.dk0"
                     ]
                 },
                 "edep": {
@@ -69,7 +69,7 @@
                 "additional-commands" : {
                     "generator": [
                         "/MG/generator/select decay0",
-                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p1_1e8.dk0"
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p1_1E8.dk0"
                     ]
                 },
                 "edep": {
@@ -101,7 +101,7 @@
                 "additional-commands" : {
                     "generator": [
                         "/MG/generator/select decay0",
-                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p2_1e8.dk0"
+                        "/MG/generator/decay0/filename ./decay0files/0nbb_2p2_1E8.dk0"
                     ]
                 },
                 "edep": {
