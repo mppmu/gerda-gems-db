@@ -2,6 +2,25 @@
     "gedet": {
         "description": "Simulations in the germanium detectors",
         "template": "gerda-ph2plus",
+        "intrinsic_enriched": {
+            "description": [
+                "Volume of detectors deployed in GERDA PhaseII+, split in dead and active parts.",
+                "**all enriched : BEGe semiCoax invCoax** detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 5.54
+            },
+            "mage-volumes": [
+                "Crystal_geometry5_[1-30]",
+                "CrystalDeadLayer_geometry5_[1-30]",
+                "Crystal_geometry6_[1-5]",
+                "CrystalDeadLayer_geometry6_[1-5]",
+                "Crystal_geometry11_[1-6]",
+                "CrystalDeadLayer_geometry11_[1-6]"
+            ]
+        },
         "intrinsic_bege": {
             "description": [
                 "Volume of detectors deployed in GERDA PhaseII+, split in dead and active parts.",
@@ -110,6 +129,18 @@
                 "./gedet/nplus_invcoax/ver/ver-gedet-nplus_invcoax.root"
             ]
         },
+        "nplus_enriched": {
+            "description": [
+                "All enriched detector n+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "./gedet/nplus_enriched/ver/ver-gedet-nplus_enriched.root"
+            ]
+        },
         "pplus_bege": {
             "description": [
                 "BEGe p+ contact surface in contact with LAr.",
@@ -144,6 +175,18 @@
             },
             "mage-volumes": [
                 "./gedet/pplus_invcoax/ver/ver-gedet-pplus_invcoax.root"
+            ]
+        },
+        "pplus_enriched": {
+            "description": [
+                "All enriched detector p+ contact surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "./gedet/pplus_enriched/ver/ver-gedet-pplus_enriched.root"
             ]
         }
     }
