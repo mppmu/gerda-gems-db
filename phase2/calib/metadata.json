@@ -98,6 +98,66 @@
             "mage-volumes": [
                 "calibration_source_inner_2"
             ]
+        },
+        "single_s2_8139": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "single_s2_8405": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "single_s2_8570": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_1"
+            ]
+        },
+        "single_s3_8128": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        },
+        "single_s3_8292": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        },
+        "single_s3_8570": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
         }
     }
 }
