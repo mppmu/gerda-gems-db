@@ -1,8 +1,6 @@
 {
     "calib": {
         "single_s2_8570": {
-            "additional-commands": {
-            },
             "Bi214": {
                 "additional-commands": {
                     "pre-run-initialize": [

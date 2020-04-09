@@ -4,9 +4,9 @@
             "additional-commands": {
                 "pre-run-initialize": [
                     "/MG/geometry/general/constructcalibration true",
-                    "/MG/geometry/detector/calibration/sourcez_S1 8139 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S1 5000 mm",
                     "/MG/geometry/detector/calibration/sourcez_S2 8139 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S3 8139 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S3 5000 mm",
                     "/MG/geometry/detector/calibration/CuCap true"
                 ]
             },
@@ -27,7 +27,7 @@
                     },
                     "total-events": 2E8,
                     "number-of-files": 10,
-                    "notes": "Simulations for pcalib run 102 with Ra226. Note: the copper cap is on.",
+                    "notes": "Simulations for pcalib run 76 with Ra226. Note: the copper cap is on.",
                     "contact": "L.Pertoldi"
                 }
             }

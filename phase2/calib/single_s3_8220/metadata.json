@@ -1,35 +1,14 @@
 {
     "calib": {
-        "single_s3_8570": {
+        "single_s3_8220": {
             "additional-commands": {
                 "pre-run-initialize": [
                     "/MG/geometry/general/constructcalibration true",
                     "/MG/geometry/detector/calibration/sourcez_S1 5000 mm",
                     "/MG/geometry/detector/calibration/sourcez_S2 5000 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S3 8570 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S3 8220 mm",
                     "/MG/geometry/detector/calibration/CuCap true"
                 ]
-            },
-            "Bi214": {
-                "additional-commands": {
-                    "generator": [
-                        "/MG/generator/select G4gun",
-                        "/MG/generator/g4gun/cone_on true",
-                        "/gun/particle ion",
-                        "/gun/ion 83 214",
-                        "/gun/energy 0 eV"
-                    ]
-                },
-                "edep": {
-                    "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
-                    },
-                    "total-events": 2E8,
-                    "number-of-files": 10,
-                    "notes": "Simulations for pcalib run 76 with Ra226. Note: the copper cap is on.",
-                    "contact": "L.Pertoldi"
-                }
             },
             "Tl208": {
                 "additional-commands": {
@@ -69,7 +48,7 @@
                     },
                     "total-events": 2E8,
                     "number-of-files": 10,
-                    "notes": "Simulations for pcalib run 68 with Th228. Note: the copper cap is on",
+                    "notes": "Simulations for pcalib run 68 with Th228. Note: the copper cap is on.",
                     "contact": "L.Pertoldi"
                 }
             }
