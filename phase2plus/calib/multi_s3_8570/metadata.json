@@ -26,7 +26,7 @@
                     },
                     "total-events":1.845E8,
                     "number-of-files": 15,
-                    "notes": "Corresponds to 30min exposure at mid Feb 2019 (run104)",
+                    "notes": "Corresponds to 2.5h exposure at mid Feb 2019 (run104)",
                     "contact": "L.Pertoldi"
                 }
             },
@@ -47,7 +47,7 @@
                     },
                     "total-events": 1.845E8,
                     "number-of-files": 5,
-                    "notes": "Corresponds to 30min exposure at mid Feb 2019 (run104)",
+                    "notes": "Corresponds to 2.5h exposure at mid Feb 2019 (run104)",
                     "contact": "L.Pertoldi"
                 }
             }
