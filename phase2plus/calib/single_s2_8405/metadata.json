@@ -1,17 +1,15 @@
 {
     "calib": {
         "single_s2_8405": {
-            "additional-commands": {
-                "pre-run-initialize": [
-                    "/MG/geometry/general/constructcalibration true",
-                    "/MG/geometry/detector/calibration/sourcez_S1 8405 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
-                    "/MG/geometry/detector/calibration/sourcez_S3 8405 mm",
-                    "/MG/geometry/detector/calibration/CuCap true"
-                ]
-            },
             "Bi214": {
                 "additional-commands": {
+                    "pre-run-initialize": [
+                        "/MG/geometry/general/constructcalibration true",
+                        "/MG/geometry/detector/calibration/sourcez_S1 5000 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S3 5000 mm",
+                        "/MG/geometry/detector/calibration/CuCap true"
+                    ],
                     "generator": [
                         "/MG/generator/select G4gun",
                         "/MG/generator/g4gun/cone_on true",
@@ -28,6 +26,60 @@
                     "total-events": 2E8,
                     "number-of-files": 10,
                     "notes": "Simulations for pcalib run 102 with Ra226. Note: the copper cap is on.",
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Tl208": {
+                "additional-commands": {
+                    "pre-run-initialize": [
+                        "/MG/geometry/general/constructcalibration true",
+                        "/MG/geometry/detector/calibration/sourcez_S1 5000 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S3 5000 mm"
+                    ],
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 81 208",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 2E8,
+                    "number-of-files": 10,
+                    "notes": "Simulations for pcalib run 100 with Th228",
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi212": {
+                "additional-commands": {
+                    "pre-run-initialize": [
+                        "/MG/geometry/general/constructcalibration true",
+                        "/MG/geometry/detector/calibration/sourcez_S1 5000 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
+                        "/MG/geometry/detector/calibration/sourcez_S3 5000 mm"
+                    ],
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 83 212",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 2E8,
+                    "number-of-files": 10,
+                    "notes": "Simulations for pcalib run 100 with Th228",
                     "contact": "L.Pertoldi"
                 }
             }
