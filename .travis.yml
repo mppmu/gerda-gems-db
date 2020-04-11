@@ -20,3 +20,4 @@ install: true
 script:
     - julia -e "using GeMS; GeMS.run_db_tests(\"phase2\")"
     - julia -e "using GeMS; GeMS.run_db_tests(\"phase2plus\")"
+    - julia -e "using GeMS; GeMS.run_db_tests(\"pss-dev\")"
