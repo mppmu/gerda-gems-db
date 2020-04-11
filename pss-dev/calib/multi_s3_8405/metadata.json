@@ -1,0 +1,56 @@
+{
+    "calib": {
+        "multi_s3_8405": {
+            "additional-commands": {
+                "pre-run-initialize": [
+                    "/MG/geometry/general/constructcalibration true",
+                    "/MG/geometry/detector/calibration/sourcez_S1 8405 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S2 8405 mm",
+                    "/MG/geometry/detector/calibration/sourcez_S3 8405 mm"
+                ]
+            },
+            "Tl208": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 81 208",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 611618596,
+                    "number-of-files": 20,
+                    "notes": "Corresponds to sum of all calibration from run 57 to 92 : O(2e9)",
+                    "contact": "K.v.Sturm"
+                }
+            },
+            "Bi212": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 83 212",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1702250475,
+                    "number-of-files": 50,
+                    "notes": "Corresponds to sum of all calibration from run 57 to 92 : O(2e9)",
+                    "contact": "K.v.Sturm"
+                }
+            }
+        }
+    }
+}
