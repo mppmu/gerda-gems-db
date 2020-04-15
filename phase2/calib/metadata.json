@@ -179,6 +179,16 @@
                 "calibration_source_inner_2"
             ]
         },
+        "single_s3_8405": {
+            "simulated-properties": {
+                "mass-g": 0.242531,
+                "volume-cm3": 0.0502655,
+                "density-gcm3": 4.825
+            },
+            "mage-volumes": [
+                "calibration_source_inner_2"
+            ]
+        },
         "single_s3_8570": {
             "simulated-properties": {
                 "mass-g": 0.242531,
