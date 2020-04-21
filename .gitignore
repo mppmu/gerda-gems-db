@@ -3,6 +3,7 @@
 *.mac
 *.out
 *.dk0
+decay0files
 
 # junk
 *.swp
