@@ -168,6 +168,15 @@
                         "/MG/generator/decay0/filename ./decay0files/2nbb_0p1_1E8.dk0"
                     ]
                 },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                },
                 "coin": {
                     "mage-version": {
                         "revision": "",
@@ -191,6 +200,15 @@
                         "/MG/generator/decay0/filename ./decay0files/2nbb_2p1_1E8.dk0"
                     ]
                 },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                },
                 "coin": {
                     "mage-version": {
                         "revision": "",
@@ -213,6 +231,15 @@
                         "/MG/generator/select decay0",
                         "/MG/generator/decay0/filename ./decay0files/2nbb_2p2_1E8.dk0"
                     ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
                 },
                 "coin": {
                     "mage-version": {
