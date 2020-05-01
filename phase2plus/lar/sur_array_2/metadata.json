@@ -1,0 +1,32 @@
+{
+    "lar": {
+        "sur_array_1": {
+            "Kr85": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/Sampling/volume/name Cylinder",
+                        "/MG/generator/Sampling/volume/innerCylinderRadius 0 mm",
+                        "/MG/generator/Sampling/volume/outerCylinderRadius 70 cm",
+                        "/MG/generator/Sampling/volume/cylinderHeight 180 cm",
+                        "/MG/generator/Sampling/volume/offsetCenterZPos -11.5 cm",
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 36 85",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1E10,
+                    "number-of-files": 500,
+                    "notes": "1E5 events in ~2 sec",
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}

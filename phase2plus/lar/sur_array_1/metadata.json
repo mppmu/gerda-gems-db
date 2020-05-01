@@ -27,7 +27,7 @@
                     "contact": "L.Pertoldi"
                 }
             },
-            "Bi214": {
+            "Ar42": {
                 "additional-commands": {
                     "generator": [
                         "/MG/generator/Sampling/volume/name Cylinder",
@@ -35,6 +35,27 @@
                         "/MG/generator/Sampling/volume/outerCylinderRadius 50 cm",
                         "/MG/generator/Sampling/volume/cylinderHeight 100 cm",
                         "/MG/generator/Sampling/volume/offsetCenterZPos -11.5 cm",
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 18 42",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1E11,
+                    "number-of-files": 200,
+                    "notes": "1E5 events in ~2 sec",
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "Bi214": {
+                "additional-commands": {
+                    "generator": [
                         "/MG/generator/select SPS",
                         "/gps/particle ion",
                         "/grdm/nucleusLimits 214 214 83 84",
