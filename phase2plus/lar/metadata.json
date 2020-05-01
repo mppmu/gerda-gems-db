@@ -38,6 +38,19 @@
                 "volume-cm3": 0
             },
             "mage-volumes": ["CryoLiquidPhysical"]
+        },
+        "sur_array_2": {
+            "description": [
+                "Cylinder (radius = 70cm, height = 180cm) surrounding the Ge",
+                "array (z = -11.5cm for better centering). Volume to sample energy",
+                "in Ge of ~500 keV beta with 10^10 sim events"
+            ],
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": ["CryoLiquidPhysical"]
         }
     }
 }
