@@ -26,6 +26,32 @@
                     "notes": "1E4 events in ~2 sec",
                     "contact": "L.Pertoldi"
                 }
+            },
+            "Bi214": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/Sampling/volume/name Cylinder",
+                        "/MG/generator/Sampling/volume/innerCylinderRadius 0 mm",
+                        "/MG/generator/Sampling/volume/outerCylinderRadius 50 cm",
+                        "/MG/generator/Sampling/volume/cylinderHeight 100 cm",
+                        "/MG/generator/Sampling/volume/offsetCenterZPos -11.5 cm",
+                        "/MG/generator/select SPS",
+                        "/gps/particle ion",
+                        "/grdm/nucleusLimits 214 214 83 84",
+                        "/gps/ion 83 214 0 0",
+                        "/gps/energy 0 eV",
+                        "/gps/ang/type iso"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1E11,
+                    "number-of-files": 10,
+                    "contact": "K.v.Sturm"
+                }
             }
         }
     }
