@@ -2,6 +2,28 @@
     "lar": {
         "template": "gerda-ph2plus",
         "description": "Simulations in the LAr surrounding the detector array",
+        "inside_ms" : {
+            "description" : [
+                "These simulations are obtained by post-processing the 'sur_array'",
+                "simulations. Only vertices inside the mini-shrouds are selected."
+            ],
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            }
+        },
+        "outside_ms" : {
+            "description" : [
+                "These simulations are obtained by post-processing the 'sur_array'",
+                "simulations. Only vertices outside the mini-shrouds are selected."
+            ],
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            }
+        },
         "above_array": {
             "description": [
                 "Cylinder (radius = 25cm, height = 100cm) positioned",
