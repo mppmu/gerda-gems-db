@@ -3,6 +3,7 @@
         "template": "gerda-ph2plus",
         "description": "Simulations in the LAr surrounding the detector array",
         "inside_ms" : {
+            "manual-management": true,
             "description" : [
                 "These simulations are obtained by post-processing the 'sur_array'",
                 "simulations. Only vertices inside the mini-shrouds are selected."
@@ -14,6 +15,7 @@
             }
         },
         "outside_ms" : {
+            "manual-management": true,
             "description" : [
                 "These simulations are obtained by post-processing the 'sur_array'",
                 "simulations. Only vertices outside the mini-shrouds are selected."

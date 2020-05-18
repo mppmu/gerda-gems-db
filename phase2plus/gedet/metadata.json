@@ -67,6 +67,7 @@
             ]
         },
         "surf_chanwise": {
+            "manual-management": true,
             "description": [
                 "Complete detector surface in contact with LAr. Detectors are",
                 "simulated separately, further info in",
@@ -76,6 +77,7 @@
             "mage-volumes": "see description"
         },
         "nplus_chanwise": {
+            "manual-management": true,
             "description": [
                 "n+ contact surface in contact with LAr. Detectors are",
                 "simulated separately, further info in",
@@ -85,6 +87,7 @@
             "mage-volumes": "see description"
         },
         "pplus_chanwise": {
+            "manual-management": true,
             "description": [
                 "p+ contact surface in contact with LAr. Detectors are",
                 "simulated separately, further info in",

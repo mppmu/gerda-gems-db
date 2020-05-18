@@ -8,6 +8,22 @@
                     "gerda-sw-all": ""
                 },
                 "contact": "L.Pertoldi"
+            },
+            "Bi214": {
+                "manual-management": true,
+                "mage-version": {
+                    "revision": "",
+                    "gerda-sw-all": ""
+                },
+                "contact": "K.v.Sturm"
+            },
+            "Po214": {
+                "manual-management": true,
+                "mage-version": {
+                    "revision": "",
+                    "gerda-sw-all": ""
+                },
+                "contact": "K.v.Sturm"
             }
         }
     }

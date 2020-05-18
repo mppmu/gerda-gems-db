@@ -1,0 +1,28 @@
+{
+    "lar": {
+        "inside_ms": {
+            "K42": {
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 0,
+                    "number-of-files": 2000,
+                    "notes": "Post processed from sur_array/K42/coin",
+                    "contact": "L.Pertoldi"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 0,
+                    "number-of-files": 2000,
+                    "notes": "Post processed from sur_array/K42/edep",
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}
