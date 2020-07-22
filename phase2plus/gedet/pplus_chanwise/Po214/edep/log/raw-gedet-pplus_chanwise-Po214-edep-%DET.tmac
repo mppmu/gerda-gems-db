@@ -1,0 +1,25 @@
+/MG/manager/mglog trace
+/MG/manager/seedWithDevRandom
+/MG/processes/useNoHadPhysics true
+/MG/geometry/detector GerdaArrayPhaseIIPlus
+/MG/geometry/cherenkov -1
+/MG/eventaction/reportingfrequency 10000
+/MG/eventaction/rootschema GerdaArraySTL
+/MG/output/saveOnlyEventsWithEnergyDepositInGermanium true
+
+/MG/eventaction/rootfilename   gedet/pplus_chanwise/Po214/edep/raw-gedet-pplus_chanwise-Po214-edep-$DETECTOR.root
+
+/run/initialize
+
+/MG/generator/gsspositionsfile gedet/pplus_chanwise/ver/ver-gedet-pplus_chanwise-$DETECTOR.root
+
+/MG/generator/select           SPS
+/gps/particle                  ion
+/gps/ion                       84 214 0 0
+/gps/energy                    0 eV
+/grdm/nucleusLimits            210 214 82 84
+/gps/ang/type                  iso
+
+## Define run
+/tracking/verbose              0
+/run/beamOn                    $NEV

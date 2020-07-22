@@ -1,0 +1,16 @@
+{
+    "electronics": {
+        "template": "gerda-ph2",
+        "cc3": {
+            "description": "Front-end electronics boards above the array",
+            "simulated-properties": {
+                "mass-g": 51.96,
+                "volume-cm3": 24,
+                "density-gcm3": 2.165
+            },
+            "mage-volumes": [
+                "CC3_Physical_[0-5]"
+            ]
+        }
+    }
+}

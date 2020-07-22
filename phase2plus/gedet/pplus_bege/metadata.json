@@ -73,6 +73,42 @@
                     "contact": "L.Pertoldi"
                 }
             },
+            "K42": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 19 42",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "coin": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 10335077,
+                    "number-of-files": 1,
+                    "additional-commands": {
+                        "pre-run-initialize" : [
+                            "/MG/output/saveOnlyEventsWithCoincidence true"
+                        ]
+                    },
+                    "notes": "all events from the vertex file",
+                    "contact": "K.v.Sturm"
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 10335077,
+                    "number-of-files": 1,
+                    "notes": "all events from the vertex file",
+                    "contact": "K.v.Sturm"
+                }
+            },
             "ver": {
                 "manual-management": true,
                 "mage-version": {

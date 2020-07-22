@@ -2,6 +2,7 @@
     "lar": {
         "outside_ms": {
             "K42": {
+                "manual-management": true,
                 "coin": {
                     "mage-version": {
                         "revision": "",
