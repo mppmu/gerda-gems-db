@@ -1,0 +1,26 @@
+{
+    "larveto": {
+        "copper_shroud": {
+            "K40": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 19 40",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0e10,
+                    "number-of-files": 300,
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}

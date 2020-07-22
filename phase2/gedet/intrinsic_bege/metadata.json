@@ -33,6 +33,74 @@
                     }
                 }
             },
+            "0nbbM1": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbbM1_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "0nbbM2": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbbM2_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "0nbbM3": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbbM3_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "0nbbM7": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/0nbbM7_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
             "0nbb_0p1": {
                 "additional-commands" : {
                     "generator": [

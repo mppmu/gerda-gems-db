@@ -2,6 +2,21 @@
     "larveto": {
         "template": "gerda-ph2",
         "description": "Simulations in the LAr hybrid veto system",
+        "copper_shroud": {
+            "description": [
+                "Tetratex-coated copper shroud of the LAr veto instrumentation.",
+                "Contaminations are simulated in the Tetratex layer."
+            ],
+            "simulated-properties": {
+                "density-gcm3": 0.9,
+                "mass-g": 1584.43,
+                "volume-cm3": 1760.477
+            },
+            "mage-volumes": [
+                "LArInstr_TetratexCylinderPhysical_top",
+                "LArInstr_TetratexCylinderPhysical_bottom"
+            ]
+        },
         "outer_fibers": {
             "description": "Segmented outer fiber shroud",
             "simulated-properties": {
