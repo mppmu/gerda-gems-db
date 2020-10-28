@@ -229,6 +229,40 @@
                     }
                 }
             },
+            "2nbb_SSD": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_KI_SSD_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_HSD": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_KI_HSD_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "",
+                        "gerda-sw-all": ""
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
             "2nbb_0p1": {
                 "additional-commands" : {
                     "generator": [
