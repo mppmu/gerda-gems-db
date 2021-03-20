@@ -5,8 +5,8 @@
         "ge_holders_all": {
             "description": "Silicon plates + vertical copper bars that hold the detectors",
             "simulated-properties": {
-                "mass-g": 0,
-                "volume-cm3": 0,
+                "mass-kg": 1.19961,
+                "volume-cm3": 514.85,
                 "density-gcm3": 2.33
             },
             "mage-volumes": [

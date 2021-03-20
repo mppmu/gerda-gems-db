@@ -21,8 +21,8 @@
             "description": "Segmented outer fiber shroud",
             "simulated-properties": {
                 "density-gcm3": 1.05,
-                "mass-g": 0,
-                "volume-cm3": 0
+                "mass-kg": 0.648116,
+                "volume-cm3": 617.253
             },
             "mage-volumes": [
                 "LArInstr_FiberSegment_Physical_[0-89]"

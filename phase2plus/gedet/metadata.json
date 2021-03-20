@@ -57,8 +57,8 @@
                 "**inverted-coaxial** detectors are simulated all together."
             ],
             "simulated-properties": {
-                "mass-kg": 0,
-                "volume-cm3": 0,
+                "mass-kg": 9.67215,
+                "volume-cm3": 1745.875,
                 "density-gcm3": 5.54
             },
             "mage-volumes": [

@@ -32,6 +32,22 @@
                 "CrystalDeadLayer_geometry11_[4-10]"
             ]
         },
+        "intrinsic_enriched": {
+            "description": [
+                "Volume of detectors deployed in GERDA PhaseII, split in dead and active parts."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 5.54
+            },
+            "mage-volumes": [
+                "Crystal_geometry5_[1-30]",
+                "CrystalDeadLayer_geometry5_[1-30]",
+                "Crystal_geometry11_[4-10]",
+                "CrystalDeadLayer_geometry11_[4-10]"
+            ]
+        },
         "intrinsic_natural": {
             "description": [
                 "Volume of detectors deployed in GERDA PhaseII, split in dead and active parts.",

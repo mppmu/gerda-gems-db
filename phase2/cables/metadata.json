@@ -4,8 +4,8 @@
         "cables_all": {
             "description": "All the cables parts together, HV, signal and the cable patches",
             "simulated-properties": {
-                "mass-g": 0,
-                "volume-cm3": 0,
+                "mass-g": 31.0278,
+                "volume-cm3": 20.280,
                 "density-gcm3": 1.53
             },
             "mage-volumes": [
