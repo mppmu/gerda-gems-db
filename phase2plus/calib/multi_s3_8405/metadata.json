@@ -21,8 +21,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.845E8,
                     "number-of-files": 15,
@@ -42,8 +42,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.845E8,
                     "number-of-files": 5,

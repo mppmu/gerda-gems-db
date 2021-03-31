@@ -14,8 +14,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e9,
                     "number-of-files": 100,
@@ -29,8 +29,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 5.0e8,
                     "number-of-files": 50,
@@ -49,8 +49,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -63,8 +63,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -83,8 +83,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -97,8 +97,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -117,8 +117,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e7,
                     "number-of-files": 1,
@@ -131,8 +131,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -151,8 +151,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -165,8 +165,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -185,8 +185,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -199,8 +199,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -219,8 +219,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -239,8 +239,8 @@
                 },
                 "coin": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
@@ -253,8 +253,8 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "",
-                        "gerda-sw-all": ""
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0e8,
                     "number-of-files": 10,
