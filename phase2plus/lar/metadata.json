@@ -75,6 +75,18 @@
                 "volume-cm3": 0
             },
             "mage-volumes": ["CryoLiquidPhysical"]
+        },
+        "sur_array_3": {
+            "description": [
+                "Cylinder (radius = 150cm, height = 250cm) surrounding the Ge",
+                "array (z = -11.5cm for better centering)."
+            ],
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": ["CryoLiquidPhysical"]
         }
     }
 }
