@@ -191,6 +191,18 @@
             "mage-volumes": [
                 "./gedet/pplus_enriched/ver/ver-gedet-pplus_enriched.root"
             ]
+        },
+        "surf_invcoax": {
+            "description": [
+                "InvCoax total surface in contact with LAr.",
+                "Detectors are simulated all together."
+            ],
+            "simulated-properties": {
+                "surface-cm2": 0
+            },
+            "mage-volumes": [
+                "./gedet/surf_invcoax/ver/ver-gedet-surf_invcoax.root"
+            ]
         }
     }
 }
