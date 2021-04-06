@@ -56,6 +56,11 @@
             "Bi214": {
                 "additional-commands": {
                     "generator": [
+                        "/MG/generator/Sampling/volume/name Cylinder",
+                        "/MG/generator/Sampling/volume/innerCylinderRadius 0 mm",
+                        "/MG/generator/Sampling/volume/outerCylinderRadius 50 cm",
+                        "/MG/generator/Sampling/volume/cylinderHeight 100 cm",
+                        "/MG/generator/Sampling/volume/offsetCenterZPos -11.5 cm",
                         "/MG/generator/select SPS",
                         "/gps/particle ion",
                         "/grdm/nucleusLimits 214 214 83 84",
@@ -70,7 +75,7 @@
                         "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1E11,
-                    "number-of-files": 10,
+                    "number-of-files": 100,
                     "contact": "K.v.Sturm"
                 }
             }
