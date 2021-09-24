@@ -375,6 +375,329 @@
                     "number-of-files" : 5,
                     "contact": "L.Pertoldi"
                 }
+            },
+            "2nbb_2ferm_100_100_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_100_100_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_200_200_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_200_200_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_300_300_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_300_300_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_400_400_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_400_400_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_500_500_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_500_500_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_600_600_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_600_600_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_2ferm_700_700_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_2ferm_700_700_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_100_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_100_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_200_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_200_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_300_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_300_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_400_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_400_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_500_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_500_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_600_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_600_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_700_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_700_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_800_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_800_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_900_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_900_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_1000_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_1000_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_1100_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_1100_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "2nbb_sterile_1200_keV": {
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select decay0",
+                        "/MG/generator/decay0/filename ./decay0files/2nbb_sterile_1200_keV_1E8.dk0"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1.0E8,
+                    "number-of-files" : 5,
+                    "contact": "L.Pertoldi"
+                }
             }
         }
     }
