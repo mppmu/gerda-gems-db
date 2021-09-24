@@ -87,6 +87,18 @@
                 "volume-cm3": 0
             },
             "mage-volumes": ["CryoLiquidPhysical"]
+        },
+        "ext_array": {
+            "description": [
+                "Tube (inner radius = 45cm, outer radius = 300cm, height = 600cm) external to the Ge array",
+                "array (z = -11.5cm for better centering)"
+            ],
+            "simulated-properties": {
+                "density-gcm3": 1.39,
+                "mass-kg": 0,
+                "volume-cm3": 0
+            },
+            "mage-volumes": ["CryoLiquidPhysical"]
         }
     }
 }
