@@ -16,7 +16,7 @@
                         "revision": "gerda-v2.0.0-rc3",
                         "gerda-sw-all": "v6.1.1-mage"
                     },
-                    "total-events": 141854586,
+                    "total-events": 14185458,
                     "number-of-files": 1,
                     "notes": "all events from the vertex file",
                     "contact": "L.Pertoldi"
