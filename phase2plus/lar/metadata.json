@@ -112,6 +112,17 @@
                 "volume-cm3": 0
             },
             "mage-volumes": ["CryoLiquidPhysical"]
+        },
+        "shell_enriched": {
+            "description": [
+                "1mm-thick LAr shell wrapping the detectors."
+            ],
+            "simulated-properties": {
+                "mass-kg": 0,
+                "volume-cm3": 0,
+                "density-gcm3": 1.39
+            },
+            "mage-volumes": ["detectorshell"]
         }
     }
 }

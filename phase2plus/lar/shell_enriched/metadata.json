@@ -1,0 +1,30 @@
+{
+    "lar": {
+        "shell_enriched": {
+            "Ar39_no_brem": {
+                "additional-commands": {
+                    "generator": [
+                        "/MG/generator/detectorshell/candidates enriched",
+                        "/MG/generator/detectorshell/shellThickness 1 mm",
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 18 39",
+                        "/gun/energy 0 eV",
+                        "/process/em/setBiasingFactor eBrem 1e-10 true"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "v6.1.1-mage"
+                    },
+                    "total-events": 1E9,
+                    "number-of-files": 10,
+                    "notes": "Simulate Ar39 beta decay but deactivate Geant4 eBrem process. ~4500 ev/sec",
+                    "contact": "L.Pertoldi"
+                }
+            }
+        }
+    }
+}
