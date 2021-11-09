@@ -96,8 +96,8 @@
             ],
             "simulated-properties": {
                 "density-gcm3": 1.39,
-                "mass-kg": 0,
-                "volume-cm3": 0
+                "mass-kg": 1077.66,
+                "volume-cm3": 775297
             },
             "mage-volumes": ["CryoLiquidPhysical"]
         },

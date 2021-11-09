@@ -32,6 +32,33 @@
                         ]
                     }
                 }
+            },
+            "Ge77_hack": {
+                "notes" : [
+                    "A special G4 version is used in which Ge77 decays with probability 1",
+                    "to the 475.5 keV excited level of As77, which in turn decays to the As77",
+                    "ground state (gamma) with a half-life of 114 µs. The simulation is used",
+                    "to determine the efficiency of the Ge77 search in GERDA data.",
+                    "About 1e3 events in 1 sec."
+                ],
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select G4gun",
+                        "/MG/generator/g4gun/cone_on true",
+                        "/gun/particle ion",
+                        "/gun/ion 32 77",
+                        "/gun/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.0-rc3",
+                        "gerda-sw-all": "sim-v4.1-magevec-ge77hack"
+                    },
+                    "total-events": 1.0E7,
+                    "number-of-files" : 1,
+                    "contact": "L.Pertoldi"
+                }
             }
         }
     }
