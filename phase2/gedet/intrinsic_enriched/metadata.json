@@ -33,12 +33,12 @@
                     }
                 }
             },
-            "Ge77_hack": {
+            "Ge77_2.2MeV_beta": {
                 "notes" : [
                     "A special G4 version is used in which Ge77 decays with probability 1",
-                    "to the 475.5 keV excited level of As77, which in turn decays to the As77",
-                    "ground state (gamma) with a half-life of 114 µs. The simulation is used",
-                    "to determine the efficiency of the Ge77 search in GERDA data.",
+                    "to the 475.5 keV excited level of As77, which is killed. In practice,",
+                    "A pure beta decay with Q = 2228 keV. The simulation is used to determine",
+                    "the efficiency of the Ge77->As77m search in GERDA data.",
                     "About 1e3 events in 1 sec."
                 ],
                 "additional-commands" : {
@@ -52,8 +52,32 @@
                 },
                 "edep": {
                     "mage-version": {
-                        "revision": "gerda-v2.0.0-rc3",
+                        "revision": "gerda-v2.0.1",
                         "gerda-sw-all": "sim-v4.1-magevec-ge77hack"
+                    },
+                    "total-events": 1.0E7,
+                    "number-of-files" : 1,
+                    "contact": "L.Pertoldi"
+                }
+            },
+            "As77m_475.5keV": {
+                "notes" : [
+                    "Simulation of the decay of the As77 metastable state at 475.5 keV. The",
+                    "simulation is used to determine the efficiency of the Ge77->As77m search",
+                    "in GERDA data. About 1e3 events in 1 sec."
+                ],
+                "additional-commands" : {
+                    "generator": [
+                        "/MG/generator/select SPS",
+                        "/gps/particle ion",
+                        "/gps/ion 33 77 33 475.5",
+                        "/gps/energy 0 eV"
+                    ]
+                },
+                "edep": {
+                    "mage-version": {
+                        "revision": "gerda-v2.0.1",
+                        "gerda-sw-all": "v6.1.1-mage"
                     },
                     "total-events": 1.0E7,
                     "number-of-files" : 1,
