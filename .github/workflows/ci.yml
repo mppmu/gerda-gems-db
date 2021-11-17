@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+      - dev
+      - 'releases/**'
+    tags: '*'
+  pull_request:
+  release:
+
+jobs:
+  test-db:
+    name: Test database with gerda-gems-sw
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Julia
+        uses: julia-actions/setup-julia@latest
+        with:
+          version: 1
+      - name: Get GeMS software
+        uses: actions/checkout@v2
+        with:
+          repository: mppmu/gerda-gems-sw
+          token: ${{ secrets.MPPMU_ACCESS }}
+          path: _aux
+      - name: Set up GeMS software
+        run: |
+          julia -e 'using Pkg; Pkg.add(readlines("_aux/src/GeMS.jl/REQUIRE"))'
+          echo "JULIA_LOAD_PATH=$JULIA_LOAD_PATH:$PWD/_aux/src/GeMS.jl" >> $GITHUB_ENV
+      - name: Clone gerda-gems-db
+        uses: actions/checkout@v2
+        with:
+          path: main
+      - name: Run tests
+        run: |
+          cd main
+          julia -e "using GeMS; GeMS.run_db_tests(\"phase2\")"
+          julia -e "using GeMS; GeMS.run_db_tests(\"phase2plus\")"
+          julia -e "using GeMS; GeMS.run_db_tests(\"pss-dev\")"
